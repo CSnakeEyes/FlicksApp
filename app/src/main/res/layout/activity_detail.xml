@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".DetailActivity"
     android:orientation="vertical"
-    android:background="#90a4ae">
+    android:background="@color/colorPrimaryLight">
 
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/player"
@@ -17,6 +17,7 @@
         android:id="@+id/title_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:text="TextView"
         android:textSize="30sp" />
 
@@ -33,5 +34,6 @@
         android:id="@+id/overview_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="sxvbhdcjnsacdhrdskccjskcefwsccsa" />
+        android:padding="10dp"
+        tools:text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et velit eros. Morbi mattis viverra nibh vitae porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque, justo in aliquam pharetra, elit lectus dictum turpis, quis sagittis nisl eros sed nunc. Proin non feugiat est. Curabitur eleifend elementum dui. Sed sed egestas erat. Nunc sed gravida lectus, nec ultricies turpis. Nullam sed risus et neque tempor suscipit. Donec non nisi ac dolor egestas ultrices. In dui nulla, egestas ut tellus vel, sagittis efficitur tortor. Sed turpis elit, aliquam a justo et, tempor scelerisque ex." />
 </LinearLayout>
